@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic - Gautam Buddha Multiple Campus</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/Academics.css">
+  <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+  <style>
+    .hidden { display: none; }
+</style>
+</head>
+<body>
+  
+  <section class="header">
+    <nav>
+        <a class="text-white font-bold text-1xl" href="index.html"> <img class="w-20" src="image/logo.png" alt=""></a>
+
+        <div class="nav-links" id="navLinks">
+
+            <span class="icon" onclick="hidemenu()">&#10005;</span>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Notice.html">Notice</a></li>
+                <li><a href="Academic.html">Academic</a></li>
+                <li><a href="Aboutus.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div> 
+        <span class="icon" onclick="showmenu()">&#9776;</span>
+    </nav>
+
+    <div class="container mx-auto p-6 mt-20">
+      <div class="md:flex md:space-x-8">
+          <div class="md:w-1/2 space-y-4">
+              <h1 class="text-2xl font-bold">Our Course and Academic </h1>
+              <p>We organize weekly & annual <span class="text-orange-500">events</span>,</p>
+              <p>कपिलवस्तु जिल्लाको तत्कालीन जयनगर गाविस हालको बुद्धभूमि नगरपालिका वडा नं. २ गोरुसिंगे बजार र यसको वरिपरिको क्षेत्रका शिक्षाप्रेमी, समाजसेवी, बुद्धिजिवी, राजनीतिकर्मी विद्यार्थी, शिक्षक, प्राध्यापक एवम् सर्वसाधारण जनताको संयुक्त प्रयासमा यस क्षेत्रमा गुणस्तरीय उच्च शिक्षा प्रदान गर्ने एक सुविधा सम्पन्न बहुमखी क्याम्पसको स्थापना गरी स्थानीय स्तरमा नै सर्वसुलभ एवम् गुणस्तरीय उच्च शिक्षा प्रदान गर्ने उद्देश्यबाट अभिप्रेरित भई शिक्षालाई सामाजिक विकासको मेरुदण्डको रुपमा स्थापित गरी ग्रामीण क्षेत्रका आदिवासी, दलित, गरीव तथा पिछडिएका जनतालाई समेत शिक्षाको माध्यमबाट सामाजिक विकासको मूल प्रवाहीकरणमा सहयोग पु¥याउने अभिप्रायले त्रिभुवन विश्वविद्यालयबाट सम्बन्धन प्राप्त गरी एक बहुमुखी क्याम्पस  सञ्चालन गर्न र यसको शैक्षिक प्रशासनिक तथा आर्थिक कार्य सुव्यवस्थित गर्न बाञ्छनीय देखिएकोले कपिलवस्तु जिल्ला बुद्धभूमि नपा २, गोरुसिंगे स्थित श्री गौतम बुद्ध माध्यमिक विद्यालयबाट प्राप्त भौतिक तथा आर्थिक स्रोत र साधनको तत्काल उपयोग गर्ने गरी सर्वसाधारण जनताको पहलबाट जनताको शैक्षिक विकास र उन्नतिका जनताद्वारा व्यवस्थपन र सञ्चालन गर्ने गरी सामुदायिक क्याम्पसको रुपमा मिति २०६६ साल जेठ २३ गतेका दिन श्री गौतम बुद्ध बहुमुखी क्याम्पस स्थापना गरिएको हो </p>
+          </div>
+          <div class="md:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div class="shadow-lg rounded-lg overflow-hidden">
+                  <img src="/image/BBS.png" alt="BBS" class="w-full h-48 object-cover">
+                  <div class="p-4">
+                      <h2 class="text-center text-lg font-semibold">BBS</h2>
+                  </div>
+              </div>
+              <div class="shadow-lg rounded-lg overflow-hidden">
+                  <img src="/image/BBS.png" alt="BA" class="w-full h-48 object-cover">
+                  <div class="p-4">
+                      <h2 class="text-center text-lg font-semibold">BA</h2>
+                  </div>
+              </div>
+              <div class="shadow-lg rounded-lg overflow-hidden">
+                  <img src="/image/BBS.png" alt="B Ed" class="w-full h-48 object-cover">
+                  <div class="p-4">
+                      <h2 class="text-center text-lg font-semibold">B Ed</h2>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <div class="container mx-auto p-4 mt-20">
+      <div class="flex justify-center space-x-4 mb-4">
+          <button id="ba-btn" class="px-4 py-2 bg-purple-600 text-white rounded">BA</button>
+          <button id="bbs-btn" class="px-4 py-2 bg-purple-600 text-white rounded">BBS</button>
+          <button id="bed-btn" class="px-4 py-2 bg-purple-600 text-white rounded">B Ed</button>
+      </div>
+      
+      <div id="ba-content" class="p-4 bg-blue-900 text-white rounded-lg">
+          <h2 class="text-xl font-bold mb-2">BA</h2>
+          <p>The Bachelor of Arts (BA) is an undergraduate degree program that typically takes three to four years to complete. It covers a wide range of disciplines such as humanities, social sciences, and languages.</p>
+      </div>
+      
+      <div id="bbs-content" class="p-4 bg-blue-900 text-white rounded-lg hidden">
+          <h2 class="text-xl font-bold mb-2">BBS</h2>
+          <p>The Bachelor of Business Studies (BBS) is an undergraduate degree program that focuses on business management and administration. It aims to provide students with the skills and knowledge needed for a career in business.</p>
+      </div>
+      
+      <div id="bed-content" class="p-4 bg-blue-900 text-white rounded-lg hidden">
+          <h2 class="text-xl font-bold mb-2">B Ed</h2>
+          <p>The Bachelor of Education (B Ed) is an undergraduate degree program that prepares students for a career in teaching. It includes courses in education theory, teaching methods, and practical teaching experience.</p>
+      </div>
+  </div>
+</section>
+
+<script>
+    document.getElementById('ba-btn').addEventListener('click', function() {
+        document.getElementById('ba-content').classList.remove('hidden');
+        document.getElementById('bbs-content').classList.add('hidden');
+        document.getElementById('bed-content').classList.add('hidden');
+    });
+
+    document.getElementById('bbs-btn').addEventListener('click', function() {
+        document.getElementById('ba-content').classList.add('hidden');
+        document.getElementById('bbs-content').classList.remove('hidden');
+        document.getElementById('bed-content').classList.add('hidden');
+    });
+
+    document.getElementById('bed-btn').addEventListener('click', function() {
+        document.getElementById('ba-content').classList.add('hidden');
+        document.getElementById('bbs-content').classList.add('hidden');
+        document.getElementById('bed-content').classList.remove('hidden');
+    });
+</script>
+<script src="javascript/main_script.js"></script>
+</body>
+</html>
