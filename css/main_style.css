@@ -344,7 +344,12 @@ h3{
 /* Footer */
 
 /* Media query for responsive */
-
+@media (max-width: 700px) {
+    .notice-title {
+        padding: 10px;
+        font-size: 1em;
+        width: 170px;
+}
 @media (max-width: 700px) {
 
     *{
