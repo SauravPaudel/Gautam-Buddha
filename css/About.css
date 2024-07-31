@@ -91,9 +91,6 @@ nav img{
 .footer{
  background-color: #162F5B;
    }
-
-   
-
 /* Media query for responsive */
 
 @media (max-width: 700px) {
@@ -143,6 +140,7 @@ nav img{
 .school-image {
     height: 400px;
 }
+
 /* About us  */
 .container {
     width: 80%;
@@ -151,12 +149,6 @@ nav img{
     padding: 20px;
     padding-top: 100px;
 }
-
-/* hr {
-    color: #003366;
-    border-bottom: 2px solid #003366;
-    padding-bottom: 10px;
-} */
 
 h2 {
     color: #003366;
@@ -188,20 +180,9 @@ main {
     text-align: center;
 }
 
-/* h1 {
-    font-size: 2.5em;
-    color: #333;
-} */
-
 .highlight {
     color: #ff7f00;
 }
-
-/* h2 {
-    font-size: 2em;
-    color: #666;
-    margin-bottom: 50px;
-} */
 
 .cards-container {
     display: flex;
@@ -260,9 +241,6 @@ main {
 .card button:hover {
     background-color: #003d5c;
 }
-
-
-
 
 @media (max-width: 768px) {
     .introduction .content,
