@@ -140,7 +140,9 @@ nav img{
     }
 }
 
-
+.school-image {
+    height: 400px;
+}
 /* About us  */
 .container {
     width: 80%;
