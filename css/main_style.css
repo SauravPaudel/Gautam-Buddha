@@ -341,6 +341,10 @@ h3{
     padding: 5px;
 }
 
+h2{
+    overflow: hidden;
+}
+
 /* Footer */
 
 /* Media query for responsive */
@@ -358,6 +362,9 @@ h3{
         padding: 0;
     
     }
+    .header{
+        overflow-y: hidden;
+    }
     #logo-img{
         padding: 10px;
     }
@@ -373,7 +380,7 @@ h3{
     }
     .nav-links{
         position: absolute;
-        background: #f44336;
+        background-color: #162F5B;
         height: 100vh;
         width: 200px;
         top: 0%;
@@ -414,5 +421,5 @@ h3{
         font-size: 24px;
     }
 }
-
+}
 /* Media query is Close*/
