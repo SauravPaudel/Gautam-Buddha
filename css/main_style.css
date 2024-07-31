@@ -34,7 +34,7 @@ body{
     }
 
 .header{
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(../image/banner.jpeg);
     background-position: center;
@@ -131,6 +131,48 @@ nav img{
     background-color: #162F5B;
 }
 
+/* Marquee  */
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.notice-board {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+    max-width: 1000px;
+    background-color: #ffffff;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.notice-title {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.notice-content {
+    padding: 10px;
+    color: #003366;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.date {
+    color: red;
+    font-weight: bold;
+}
 /* Course */
 
  .course{
