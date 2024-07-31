@@ -131,15 +131,7 @@ nav img{
     font-weight: bold;
 }
 
-.popup-design{
-    position: relative;
-}
-.popup-content{
-    position: absolute;
-}
-.popup-design:hover .popup-content {
-    display: block;
-}
+
 
 @media (max-width: 700px) {
 
