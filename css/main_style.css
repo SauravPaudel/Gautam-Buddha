@@ -348,12 +348,12 @@ h2{
 /* Notice Responsive  */
 @media (max-width: 768px) {
     .notice-board {
-        width: 95%;
+        width: 100%;
     }
 
     .notice-title {
-        font-size: 1.3em;
-        width: 260px;
+        font-size: 1.2em;
+        width: 300px;
     }
 }
 
