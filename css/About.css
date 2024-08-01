@@ -91,12 +91,12 @@ nav img{
 .footer{
  background-color: #162F5B;
    }
-/* Media query for responsive */
 
+
+/* Media query for responsive */
 @media (max-width: 700px) {
 
     *{
-       
         margin: 0;
         padding: 0;
     
@@ -135,7 +135,8 @@ nav img{
     .nav-links ul{
         padding: 30px;
     }
-}
+  }
+
 
 .school-image {
     height: 400px;
