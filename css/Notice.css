@@ -119,7 +119,7 @@ nav img{
 
 @media (max-width: 768px) {
     .notice-board {
-        width: 95%;
+        width: 100%;
     }
 
     .notice-title {
