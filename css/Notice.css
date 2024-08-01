@@ -117,11 +117,25 @@ nav img{
     white-space: nowrap;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
+    .notice-board {
+        width: 95%;
+    }
+
     .notice-title {
-        padding: 10px;
-        font-size: 1em;
-        width: 170px;
+        font-size: 1.3em;
+        width: 260px;
+    }
+}
+
+@media (max-width: 480px) {
+    .notice-title {
+        font-size: 1.2em;
+    }
+
+    .notice-content {
+        font-size: 0.9em;
+    }
 }
 
 
